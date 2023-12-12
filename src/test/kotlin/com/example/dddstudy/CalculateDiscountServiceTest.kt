@@ -1,10 +1,10 @@
 package com.example.dddstudy
 
-import com.example.ddd.NoCustomerException
-import com.example.ddd.domain.Money
-import com.example.ddd.repository.CustomerRepository
-import com.example.ddd.service.CalculateDiscountService
-import com.example.ddd.util.RuleDiscounter
+import com.example.ddd.order.domain.exception.NoCustomerException
+import com.example.ddd.order.domain.model.Money
+import com.example.ddd.order.domain.repository.CustomerRepository
+import com.example.ddd.order.domain.service.CalculateDiscountService
+import com.example.ddd.order.domain.util.RuleDiscounter
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
